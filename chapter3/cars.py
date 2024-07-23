@@ -1,0 +1,9 @@
+cars=['bmw','audi','toyota','subaru']
+print(sorted(cars,reverse=False))
+print(cars)
+cars.reverse()
+print(cars)
+cars.sort(reverse=True)
+print(cars)
+print(len(cars))
+print(cars[-1])

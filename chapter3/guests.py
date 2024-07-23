@@ -1,0 +1,10 @@
+guests=['a','b','c','d','e']
+guests.remove('c')
+guests.remove('d')
+guests.append('f')
+guests.append('g')
+print(guests)
+guests.insert(0,'h')
+guests.insert(3,"i")
+guests.append('j')
+print(guests)
